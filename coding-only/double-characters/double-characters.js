@@ -1,3 +1,8 @@
 export function doubleCharacters(word) {
-  // Add your code here
+  let outputString = "";
+  for (let i = 0; i < word.length; i++) {
+    outputString = outputString + word[i] + word[i];
+  }
+
+  return outputString;
 }
